@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Mulish:wght@500&family=Poppins:wght@200&family=Roboto&display=swap");
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+ background: #fff;
+ font-size: 1.7rem;
+ line-height: 1.7;
+ font-family: sans-serif;
+}
+
+main{
+ max-width: 1440px;
+ padding: 20px;
+background: #f5f9fc;
+}
+
