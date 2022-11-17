@@ -1,0 +1,335 @@
+2022-10-25 15:09:31.693 24454-24454 ip_monitor-611          pid-24454                            D  192.168.169.76 dev usb0 lladdr 26:67:75:b7:a7:56 PROBE
+2022-10-25 15:09:31.713 24455-24455 ip_monitor-611          pid-24455                            D  192.168.169.76 dev usb0 lladdr 26:67:75:b7:a7:56 REACHABLE
+2022-10-25 15:09:32.003   638-1356  GNSSMGT                 pid-638                              D  watchdog: PowerState[UNKOWN STATE], gps_flag[4], readcount[0], idle time = 0, HeartCount = 0
+2022-10-25 15:09:32.124   754-810   Watchdog                pid-754                              E  WDT_Monitor: checkSFStatus sfBlocked=false
+2022-10-25 15:09:32.124   754-810   Watchdog                pid-754                              E  WDT_Monitor: writeWDTMonitor duration=50,shutdowning=false
+2022-10-25 15:09:33.011   754-1323  SSense                  pid-754                              D  onFpsChanged: fps:7.7333336
+2022-10-25 15:09:33.027   754-1071  DeviceStor...torService pid-754                              D  updateStateEx oldLevel = 0, newLevel = 0
+2022-10-25 15:09:33.027   754-1071  DeviceStor...torService pid-754                              D  case MSG_CHECK: check
+2022-10-25 15:09:33.412  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:33.890   430-476   IMGMemtrackHAL          pid-430                              E  DbgFsParseFile: fopen of /proc/pvr/driver_stats failed (Permission denied)
+2022-10-25 15:09:33.888   430-430   HwBinder:430_1          pid-430                              W  type=1400 audit(0.0:606377): avc: denied { read } for name="driver_stats" dev="proc" ino=4026532696 scontext=u:r:hal_combined_default:s0 tcontext=u:object_r:proc:s0 tclass=file permissive=0
+2022-10-25 15:09:33.891   430-476   IMGMemtrackHAL          pid-430                              E  GetGraphicsMemtrackRecords: DbgFsParseDir for /d/ion failed (No such file or directory)
+2022-10-25 15:09:34.003   638-1356  GNSSMGT                 pid-638                              D  watchdog: PowerState[UNKOWN STATE], gps_flag[4], readcount[0], idle time = 0, HeartCount = 0
+2022-10-25 15:09:35.517   754-2113  GeminiPowerms_itel      pid-754                              D  acquireWakeLock() called with: packageName = [com.android.phone], tag = [*telephony-radio*], wakefulness = [1]
+2022-10-25 15:09:35.520  1128-1527  IwlanNetworkService     pid-1128                             D  requestNetworkRegistrationInfo,domain:2 callback:android.telephony.NetworkServiceCallback@b1a10e3
+2022-10-25 15:09:35.520  1128-1527  TelephonyProvider       pid-1128                             D  Using old permission behavior for telephony provider compat
+2022-10-25 15:09:35.530   754-2116  GeminiPowerms_itel      pid-754                              D  releaseWakeLock() called with: packageName = [com.android.phone], tag = [*telephony-radio*], startAcquireTimeStamp = [285454464], relativeMillis = [13], relativeMinutes = [0], wakefulness = [1]
+2022-10-25 15:09:35.547  1128-1128  TeleUtils               pid-1128                             D   translateOperatorName: old name= glo ng
+2022-10-25 15:09:35.547  1128-1128  TeleUtils               pid-1128                             D   changeOperator: old value= 62150
+2022-10-25 15:09:35.551  1128-1128  TeleUtils               pid-1128                             D   changeOperator: itemList length is 1904
+2022-10-25 15:09:35.553  1128-1128  TeleUtils               pid-1128                             D  itemList found: parts[0]= 62150 parts[1]= Glo NG  newName= Glo NG
+2022-10-25 15:09:35.553  1128-1128  TeleUtils               pid-1128                             D  translateOperatorName : plmn = 62150 newName= Glo NG
+2022-10-25 15:09:35.562  1128-1128  TeleUtils               pid-1128                             D   changeOperator: old value= 62150
+2022-10-25 15:09:35.567  1128-1128  TeleUtils               pid-1128                             D   changeOperator: itemList length is 1904
+2022-10-25 15:09:35.568  1128-1128  TeleUtils               pid-1128                             D  itemList found: parts[0]= 62150 parts[1]= Glo NG  newName= Glo NG
+2022-10-25 15:09:35.572  1128-1128  TeleUtils               pid-1128                             D   translateOperatorName: old name= glo ng
+2022-10-25 15:09:35.572  1128-1128  TeleUtils               pid-1128                             D   changeOperator: old value= 62150
+2022-10-25 15:09:35.577  1128-1128  TeleUtils               pid-1128                             D   changeOperator: itemList length is 1904
+2022-10-25 15:09:35.578  1128-1128  TeleUtils               pid-1128                             D  itemList found: parts[0]= 62150 parts[1]= Glo NG  newName= Glo NG
+2022-10-25 15:09:35.579  1128-1128  TeleUtils               pid-1128                             D  translateOperatorName : plmn = 62150 newName= Glo NG
+2022-10-25 15:09:35.579  1128-1128  TeleUtils               pid-1128                             D   translateOperatorName: old name= glo ng
+2022-10-25 15:09:35.579  1128-1128  TeleUtils               pid-1128                             D   changeOperator: old value= 62150
+2022-10-25 15:09:35.583  1128-1128  TeleUtils               pid-1128                             D   changeOperator: itemList length is 1904
+2022-10-25 15:09:35.585  1128-1128  TeleUtils               pid-1128                             D  itemList found: parts[0]= 62150 parts[1]= Glo NG  newName= Glo NG
+2022-10-25 15:09:35.585  1128-1128  TeleUtils               pid-1128                             D  translateOperatorName : plmn = 62150 newName= Glo NG
+2022-10-25 15:09:35.593  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:35.597  1128-1128  ServiceStateProvider    pid-1128                             D  subId=8
+2022-10-25 15:09:35.600  1178-1178  CarrierTextController   pid-1178                             D  show displayText:Glo NG — MTN NG
+2022-10-25 15:09:35.601  1178-1178  CarrierTextController   pid-1178                             D  show displayText:Glo NG — MTN NG
+2022-10-25 15:09:35.602 24066-24066 CellBroadcastReceiver   pid-24066                            D  onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver/.CellBroadcastReceiver (has extras) }
+2022-10-25 15:09:35.608   754-1064  ConnectivityService     pid-754                              D  receive EVENT_NETWORK_PROPERTIES_CHANGED 
+2022-10-25 15:09:35.608   754-1064  ConnectivityService     pid-754                              D  Update of LinkProperties for [235 CELLULAR]; created=true; everConnected=true
+2022-10-25 15:09:35.608   754-1064  ConnectivityService     pid-754                              D  handleUpdateLinkProperties: newLp is {InterfaceName: seth_lte0 LinkAddresses: [ 10.18.179.169/32 ] DnsAddresses: [ /10.159.83.82,/10.159.83.25 ] Domains: null MTU: 1500 TcpBufferSizes: 58254,349525,1048576,58254,349525,1048576 Routes: [ 0.0.0.0/0 -> 0.0.0.0 seth_lte0 mtu 1500 ]}
+2022-10-25 15:09:35.608   754-1064  ConnectivityService     pid-754                              D  updateMtu: IPv4 mtu = 1500, IPv6 mtu = 0
+2022-10-25 15:09:35.608   754-1064  ConnectivityService     pid-754                              D  identical MTU - not setting
+2022-10-25 15:09:35.610   754-817   BroadcastQueue          pid-754                              W  Permission Denial: receiving Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) } to shareit.lite/com.ushareit.longevity.receiver.GlobalReceiver requires android.permission.READ_PHONE_STATE due to sender android (uid 1001)
+2022-10-25 15:09:35.612  1178-1178  StackScroller           pid-1178                             D  setMaxTopPadding() maxTopPadding:1304 StackScrollAlpha:1.0
+2022-10-25 15:09:35.613  1178-1178  StackScroller           pid-1178                             D  setMaxTopPadding() maxTopPadding:1304 StackScrollAlpha:1.0
+2022-10-25 15:09:35.613  1178-1178  PanelView               pid-1178                             D  getHeaderTranslation() translation:-694.0
+2022-10-25 15:09:35.613  1178-1178  PanelView               pid-1178                             D  updateExpandedHeight() expandedHeight:0.0
+2022-10-25 15:09:35.614  1178-1178  PanelView               pid-1178                             D  getHeaderTranslation() translation:-694.0
+2022-10-25 15:09:35.615  1178-1178  TAG                     pid-1178                             D  updateClearButton: cccc
+2022-10-25 15:09:35.620  1128-1128  ImsStateListener        pid-1128                             D  [0] ACTION_SERVICE_STATE_CHANGED
+2022-10-25 15:09:35.621  1128-1128  PhoneUtils              pid-1128                             D  isCtCard iccid = 8923450911193697180F
+2022-10-25 15:09:35.621  1128-1128  ImsServiceImpl          pid-1128                             I  [1]:onServiceStateChanged
+2022-10-25 15:09:35.621  1128-1128  CallForwardHelper       pid-1128                             D  onServiceStateChanged(), state: 0 DataRegState: 0
+2022-10-25 15:09:35.623  1128-1128  FdnHelper               pid-1128                             D  (phoneId0) onServiceStateChanged(), state: 0
+2022-10-25 15:09:35.623  1128-1128  FdnHelper               pid-1128                             D  (subId8) firstQuery =false
+2022-10-25 15:09:35.624  1128-1128  [ImsCM] Im...gerMonitor pid-1128                             D  Receiver action: android.intent.action.SERVICE_STATE
+2022-10-25 15:09:35.640   637-654   ThermalCvtGovernor      pid-637                              I  board-bck(default) Sum: 654375, cala times: 15
+2022-10-25 15:09:35.640   637-654   ThermalCvtGovernor      pid-637                              I  board-bck(default) average temp: 43625
+2022-10-25 15:09:35.640   637-654   ThermalCvtGovernor      pid-637                              I  board-bck(default) calTemp: 43625 tripTemp: 43000
+2022-10-25 15:09:35.640   637-654   ThermalCvtGovernor      pid-637                              I  board-bck(default) setLevel: 1, setTrip: 0
+2022-10-25 15:09:35.640   637-654   ThermalManager          pid-637                              I  send 0x1, sensor=board-bck(default)
+2022-10-25 15:09:35.641   637-637   ThermalManager          pid-637                              I  received EVENT_TRIP, sensor=board-bck(default)
+2022-10-25 15:09:35.641   637-637   ThermalActionCharge     pid-637                              I  do,===>charge, mArg:850000, mFileNode:/sys/class/power_supply/battery/charge_control_limit
+2022-10-25 15:09:35.643  1128-1128  [ImsCM] Im...rStateInfo pid-1128                             D  setRoamingState, isInRoaming = false
+2022-10-25 15:09:35.643  1128-1128  [ImsCM] Im...gerMonitor pid-1128                             D  updateServiceState isInRoaming = false
+2022-10-25 15:09:35.644  1128-1128  TelephonyProvider       pid-1128                             D  Using old permission behavior for telephony provider compat
+2022-10-25 15:09:35.644  1128-1128  TelephonyProvider       pid-1128                             D  subIdString = 8 subId = 8
+2022-10-25 15:09:35.657  1128-1128  UniIccRecords           pid-1128                             D  [UniIccRecords0] onCellLocationChanged: 3084mccmnc: 62150
+2022-10-25 15:09:35.615   754-817   BroadcastQueue          pid-754                              W  Permission Denial: receiving Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) } to shareit.lite/com.ushareit.longevity.receiver.GlobalReceiver requires android.permission.READ_PHONE_STATE due to sender android (uid 1001)
+2022-10-25 15:09:35.659   754-2116  GeminiPowerms_itel      pid-754                              D  acquireWakeLock() called with: packageName = [com.android.unisoc.telephony.server], tag = [RadioInteractor], wakefulness = [1]
+2022-10-25 15:09:35.661  1128-1128  ImsServiceImpl          pid-1128                             I  [1]:handleMessage msg={ when=-40ms what=106 obj=android.os.AsyncResult@3afcc5e target=com.spreadtrum.ims.ImsServiceImpl$ImsHandler }
+2022-10-25 15:09:35.661  1128-1128  ImsServiceImpl          pid-1128                             I  [1]:EVENT_SERVICE_STATE_CHANGED->ServiceStateChange
+2022-10-25 15:09:35.661  1128-1128  ImsServiceImpl          pid-1128                             I  [1]:DataRadioType:3, DataRegState:0
+2022-10-25 15:09:35.661  1128-1128  ImsServiceImpl          pid-1128                             I  [1]:mImsRegistered:false, isVoLteEnabled:false, isVoLTERegistered:false
+2022-10-25 15:09:35.662  1128-1154  UniOperatorNameHandler  pid-1128                             D  getHighPriorityPlmn for phone 0 mccmnc 62150 and lac -1
+2022-10-25 15:09:35.663  1128-1154  IccServiceTable         pid-1128                             D  isAvailable for servic44 for type 2
+2022-10-25 15:09:35.663  1128-1154  IccServiceTable         pid-1128                             D  pnnAvaliable return true
+2022-10-25 15:09:35.663  1128-1154  IccServiceTable         pid-1128                             D  isAvailable for servic45 for type 2
+2022-10-25 15:09:35.663  1128-1154  IccServiceTable         pid-1128                             D  oplAvaliable return true
+2022-10-25 15:09:35.663  1128-1154  UniOperatorNameHandler  pid-1128                             D  matchOplplmn match:false
+2022-10-25 15:09:35.664   754-2116  GeminiPowerms_itel      pid-754                              D  acquireWakeLock() called with: packageName = [com.android.phone], tag = [*telephony-radio*], wakefulness = [1]
+2022-10-25 15:09:35.664  1128-1154  chatty                  pid-1128                             I  uid=1001(radio) HwBinder:1128_1 identical 98 lines
+2022-10-25 15:09:35.664  1128-1154  UniOperatorNameHandler  pid-1128                             D  matchOplplmn match:false
+2022-10-25 15:09:35.664  1128-1154  UniOperatorNameHandler  pid-1128                             D  No invalid pnn record match
+2022-10-25 15:09:35.664  1128-1154  UniOperatorNameHandler  pid-1128                             D  invalid PnnRecordnum = -1
+2022-10-25 15:09:35.664  1128-1154  UniOperatorNameHandler  pid-1128                             D  getPnn return 
+2022-10-25 15:09:35.664  1128-1154  UniIccRecords           pid-1128                             D  [UniIccRecords0] getHomePlmns: [62150]
+2022-10-25 15:09:35.664  1128-1154  UniOperatorNameHandler  pid-1128                             D  Didn't get pnn from sim, try ons next. ONS = null
+2022-10-25 15:09:35.665  1128-1154  UniOperatorNameHandler  pid-1128                             D  preferLocaleName = false
+2022-10-25 15:09:35.665  1128-1154  UniOperatorNameHandler  pid-1128                             D  localeName = 
+2022-10-25 15:09:35.666  1128-1527  IwlanNetworkService     pid-1128                             D  requestNetworkRegistrationInfo,domain:2 callback:android.telephony.NetworkServiceCallback@9a8506a
+2022-10-25 15:09:35.666  1128-1527  TelephonyProvider       pid-1128                             D  Using old permission behavior for telephony provider compat
+2022-10-25 15:09:35.667   754-2616  GeminiPowerms_itel      pid-754                              D  releaseWakeLock() called with: packageName = [com.android.unisoc.telephony.server], tag = [RadioInteractor], startAcquireTimeStamp = [285454606], relativeMillis = [8], relativeMinutes = [0], wakefulness = [1]
+2022-10-25 15:09:35.680   754-2113  GeminiPowerms_itel      pid-754                              D  releaseWakeLock() called with: packageName = [com.android.phone], tag = [*telephony-radio*], startAcquireTimeStamp = [285454611], relativeMillis = [16], relativeMinutes = [0], wakefulness = [1]
+2022-10-25 15:09:35.681  1128-1527  IwlanNetworkService     pid-1128                             D  requestNetworkRegistrationInfo,domain:2 callback:android.telephony.NetworkServiceCallback@34159a4
+2022-10-25 15:09:35.681  1128-1527  TelephonyProvider       pid-1128                             D  Using old permission behavior for telephony provider compat
+2022-10-25 15:09:35.707   754-817   BroadcastQueue          pid-754                              W  Permission Denial: receiving Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) } to shareit.lite/com.ushareit.longevity.receiver.GlobalReceiver requires android.permission.READ_PHONE_STATE due to sender android (uid 1001)
+2022-10-25 15:09:35.710   754-1064  ConnectivityService     pid-754                              D  receive EVENT_NETWORK_PROPERTIES_CHANGED 
+2022-10-25 15:09:35.710   754-1064  ConnectivityService     pid-754                              D  Update of LinkProperties for [235 CELLULAR]; created=true; everConnected=true
+2022-10-25 15:09:35.710   754-1064  ConnectivityService     pid-754                              D  handleUpdateLinkProperties: newLp is {InterfaceName: seth_lte0 LinkAddresses: [ 10.18.179.169/32 ] DnsAddresses: [ /10.159.83.82,/10.159.83.25 ] Domains: null MTU: 1500 TcpBufferSizes: 58254,349525,1048576,58254,349525,1048576 Routes: [ 0.0.0.0/0 -> 0.0.0.0 seth_lte0 mtu 1500 ]}
+2022-10-25 15:09:35.710   754-1064  ConnectivityService     pid-754                              D  updateMtu: IPv4 mtu = 1500, IPv6 mtu = 0
+2022-10-25 15:09:35.710   754-1064  ConnectivityService     pid-754                              D  identical MTU - not setting
+2022-10-25 15:09:35.713   754-817   BroadcastQueue          pid-754                              W  Permission Denial: receiving Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) } to shareit.lite/com.ushareit.longevity.receiver.GlobalReceiver requires android.permission.READ_PHONE_STATE due to sender android (uid 1001)
+2022-10-25 15:09:35.715  1128-1128  TelephonyProvider       pid-1128                             D  Using old permission behavior for telephony provider compat
+2022-10-25 15:09:35.715  1128-1128  TelephonyProvider       pid-1128                             D  subIdString = 8 subId = 8
+2022-10-25 15:09:35.814  1178-1178  StackScroller           pid-1178                             D  setMaxTopPadding() maxTopPadding:1304 StackScrollAlpha:1.0
+2022-10-25 15:09:35.815  1178-1178  StackScroller           pid-1178                             D  setMaxTopPadding() maxTopPadding:1304 StackScrollAlpha:1.0
+2022-10-25 15:09:35.815  1178-1178  PanelView               pid-1178                             D  getHeaderTranslation() translation:-694.0
+2022-10-25 15:09:35.815  1178-1178  PanelView               pid-1178                             D  updateExpandedHeight() expandedHeight:0.0
+2022-10-25 15:09:35.815  1178-1178  PanelView               pid-1178                             D  getHeaderTranslation() translation:-694.0
+2022-10-25 15:09:35.817  1178-1178  TAG                     pid-1178                             D  updateClearButton: cccc
+2022-10-25 15:09:35.977   754-763   system_server           pid-754                              I  Background young concurrent copying GC freed 408358(20MB) AllocSpace objects, 40(2448KB) LOS objects, 33% free, 45MB/68MB, paused 289us total 172.358ms
+2022-10-25 15:09:35.985   754-765   System                  pid-754                              W  A resource failed to call close. 
+2022-10-25 15:09:35.985   754-765   IMGGralloc              pid-754                              D  Gralloc Free  w:576, h:1280, f:0x4, usage:0x100, ui64Stamp:1027364 line = 2441
+2022-10-25 15:09:35.986   754-765   System                  pid-754                              W  A resource failed to call close. 
+2022-10-25 15:09:35.986   754-765   IMGGralloc              pid-754                              D  Gralloc Free  w:576, h:1280, f:0x4, usage:0x100, ui64Stamp:1027304 line = 2441
+2022-10-25 15:09:36.003   638-1356  GNSSMGT                 pid-638                              D  watchdog: PowerState[UNKOWN STATE], gps_flag[4], readcount[0], idle time = 0, HeartCount = 0
+2022-10-25 15:09:36.015   754-1323  SSense                  pid-754                              D  onFpsChanged: fps:0.33333334
+2022-10-25 15:09:36.301 21945-22173 Volley                  pid-21945                            D  [26138] evo.a: HTTP response for request=<[ ] https://play-fe.googleapis.com/fdfe/getPlayArtProfileConfig?nocache_qos=lt 0x4be64f9b NORMAL 7> [lifetime=7409], [size=97], [rc=200], [retryCount=0]
+2022-10-25 15:09:36.326 21945-24442 Finsky                  pid-21945                            I  [26189] goi.run(61): No profiles to upload
+2022-10-25 15:09:36.335 21945-24442 ArtManager              pid-21945                            D  Requesting profile snapshot for com.soundcorset.client.android:/data/app/~~2u83gLOvZHXJOKjM-8VKEA==/com.soundcorset.client.android-9GPvQSpu7sssu4mrCpovZA==/base.apk
+2022-10-25 15:09:36.606 24456-24456 profman                 pid-24456                            W  profman took 212.629ms
+2022-10-25 15:09:36.614 21945-24442 ArtManager              pid-21945                            D  Requesting profile snapshot for com.soundcorset.client.android:/data/app/~~2u83gLOvZHXJOKjM-8VKEA==/com.soundcorset.client.android-9GPvQSpu7sssu4mrCpovZA==/split_config.armeabi_v7a.apk
+2022-10-25 15:09:36.620 21945-24442 Finsky                  pid-21945                            E  [26189] ArtProfilesUploadJob.c(64): Failed to retrieve the ART profile: Failed to get the profile [com.soundcorset.client.android:/data/app/~~2u83gLOvZHXJOKjM-8VKEA==/com.soundcorset.client.android-9GPvQSpu7sssu4mrCpovZA==/split_config.armeabi_v7a.apk]
+                                                                                                    com.google.android.finsky.art.SnapshotRuntimeProfileException: Failed to get the profile [com.soundcorset.client.android:/data/app/~~2u83gLOvZHXJOKjM-8VKEA==/com.soundcorset.client.android-9GPvQSpu7sssu4mrCpovZA==/split_config.armeabi_v7a.apk]
+                                                                                                    	at com.google.android.finsky.art.ArtProfilesUploadJob.c(PG:63)
+                                                                                                    	at goi.run(PG:58)
+                                                                                                    	at aaea.run(PG:9)
+                                                                                                    	at java.lang.Thread.run(Thread.java:923)
+2022-10-25 15:09:36.621 21945-24442 ArtManager              pid-21945                            D  Requesting profile snapshot for com.soundcorset.client.android:/data/app/~~2u83gLOvZHXJOKjM-8VKEA==/com.soundcorset.client.android-9GPvQSpu7sssu4mrCpovZA==/split_config.en.apk
+2022-10-25 15:09:36.625 21945-24442 Finsky                  pid-21945                            E  [26189] ArtProfilesUploadJob.c(64): Failed to retrieve the ART profile: Failed to get the profile [com.soundcorset.client.android:/data/app/~~2u83gLOvZHXJOKjM-8VKEA==/com.soundcorset.client.android-9GPvQSpu7sssu4mrCpovZA==/split_config.en.apk]
+                                                                                                    com.google.android.finsky.art.SnapshotRuntimeProfileException: Failed to get the profile [com.soundcorset.client.android:/data/app/~~2u83gLOvZHXJOKjM-8VKEA==/com.soundcorset.client.android-9GPvQSpu7sssu4mrCpovZA==/split_config.en.apk]
+                                                                                                    	at com.google.android.finsky.art.ArtProfilesUploadJob.c(PG:63)
+                                                                                                    	at goi.run(PG:58)
+                                                                                                    	at aaea.run(PG:9)
+                                                                                                    	at java.lang.Thread.run(Thread.java:923)
+2022-10-25 15:09:36.626 21945-24442 ArtManager              pid-21945                            D  Requesting profile snapshot for com.soundcorset.client.android:/data/app/~~2u83gLOvZHXJOKjM-8VKEA==/com.soundcorset.client.android-9GPvQSpu7sssu4mrCpovZA==/split_config.xhdpi.apk
+2022-10-25 15:09:36.631 21945-24442 Finsky                  pid-21945                            E  [26189] ArtProfilesUploadJob.c(64): Failed to retrieve the ART profile: Failed to get the profile [com.soundcorset.client.android:/data/app/~~2u83gLOvZHXJOKjM-8VKEA==/com.soundcorset.client.android-9GPvQSpu7sssu4mrCpovZA==/split_config.xhdpi.apk]
+                                                                                                    com.google.android.finsky.art.SnapshotRuntimeProfileException: Failed to get the profile [com.soundcorset.client.android:/data/app/~~2u83gLOvZHXJOKjM-8VKEA==/com.soundcorset.client.android-9GPvQSpu7sssu4mrCpovZA==/split_config.xhdpi.apk]
+                                                                                                    	at com.google.android.finsky.art.ArtProfilesUploadJob.c(PG:63)
+                                                                                                    	at goi.run(PG:58)
+                                                                                                    	at aaea.run(PG:9)
+                                                                                                    	at java.lang.Thread.run(Thread.java:923)
+2022-10-25 15:09:36.634 21945-24442 Finsky                  pid-21945                            I  [26189] goi.run(76): Uploading ART profiles for package com.soundcorset.client.android: count=1,bytes=1681
+2022-10-25 15:09:36.998   754-1035  InputReader             pid-754                              D  syncTouch: pointerCount 0 -> 1, touching ids 0x00000000 -> 0x80000000, hovering ids 0x00000000 -> 0x00000000
+2022-10-25 15:09:36.998   754-1035  InputReader             pid-754                              D  dispatchTouches action DOWN now(ns): 175535528257137
+2022-10-25 15:09:36.998   754-1035  InputReader             pid-754                              D  notifyMotion call dispatcher
+2022-10-25 15:09:37.181   754-1035  InputReader             pid-754                              I  processEventsLocked: type=3 Count=3 code=57 value=-1 deviceId=3 when=175535710838000
+2022-10-25 15:09:37.181   754-1035  InputReader             pid-754                              D  syncTouch: pointerCount 1 -> 0, touching ids 0x80000000 -> 0x00000000, hovering ids 0x00000000 -> 0x00000000
+2022-10-25 15:09:37.181   754-1035  InputReader             pid-754                              D  dispatchTouches action UP now(ns): 175535711120098
+2022-10-25 15:09:37.181   754-1035  InputReader             pid-754                              D  notifyMotion call dispatcher
+2022-10-25 15:09:37.295 24339-24339 ViewPager               pid-24339                            W  Requested offscreen page limit 0 too small; defaulting to 1
+2022-10-25 15:09:37.555 24339-24395 LogX                    pid-24339                            E  X-Auth-Token -> eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY5Mjk4NjEwLCJqdGkiOiIwNDg0NjE0N2EyMDE0MDU0YTAxZGU3Y2ZmNWE5NGY1MyIsInVzZXJfaWQiOjIwNzUyfQ.CjHb31SIcLratHMeOoMx6zW4WuKajEhXNicRpxyTuLY
+2022-10-25 15:09:37.555 24339-24395 okhttp.OkHttpClient     pid-24339                            I  --> GET https://vettingapp.testl.io/api/v1/homework/?student=13876&ordering=due_date&for_due=true
+2022-10-25 15:09:37.555 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Content-Type: application/json
+2022-10-25 15:09:37.556 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Cache-Control: no-cache
+2022-10-25 15:09:37.556 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY5Mjk4NjEwLCJqdGkiOiIwNDg0NjE0N2EyMDE0MDU0YTAxZGU3Y2ZmNWE5NGY1MyIsInVzZXJfaWQiOjIwNzUyfQ.CjHb31SIcLratHMeOoMx6zW4WuKajEhXNicRpxyTuLY
+2022-10-25 15:09:37.557 24339-24395 okhttp.OkHttpClient     pid-24339                            I  --> END GET
+2022-10-25 15:09:37.644   637-654   ThermalCvtGovernor      pid-637                              I  board-bck(default) start calculate temperature.
+2022-10-25 15:09:37.731 24339-24396 LogX                    pid-24339                            E  X-Auth-Token -> eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY5Mjk4NjEwLCJqdGkiOiIwNDg0NjE0N2EyMDE0MDU0YTAxZGU3Y2ZmNWE5NGY1MyIsInVzZXJfaWQiOjIwNzUyfQ.CjHb31SIcLratHMeOoMx6zW4WuKajEhXNicRpxyTuLY
+2022-10-25 15:09:37.732 24339-24396 okhttp.OkHttpClient     pid-24339                            I  --> GET https://vettingapp.testl.io/api/v1/grade/?for_teacher=true
+2022-10-25 15:09:37.732 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Content-Type: application/json
+2022-10-25 15:09:37.732 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Cache-Control: no-cache
+2022-10-25 15:09:37.732 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY5Mjk4NjEwLCJqdGkiOiIwNDg0NjE0N2EyMDE0MDU0YTAxZGU3Y2ZmNWE5NGY1MyIsInVzZXJfaWQiOjIwNzUyfQ.CjHb31SIcLratHMeOoMx6zW4WuKajEhXNicRpxyTuLY
+2022-10-25 15:09:37.733 24339-24396 okhttp.OkHttpClient     pid-24339                            I  --> END GET
+2022-10-25 15:09:37.753 24339-24386 LogX                    pid-24339                            E  X-Auth-Token -> eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY5Mjk4NjEwLCJqdGkiOiIwNDg0NjE0N2EyMDE0MDU0YTAxZGU3Y2ZmNWE5NGY1MyIsInVzZXJfaWQiOjIwNzUyfQ.CjHb31SIcLratHMeOoMx6zW4WuKajEhXNicRpxyTuLY
+2022-10-25 15:09:37.754 24339-24386 okhttp.OkHttpClient     pid-24339                            I  --> GET https://vettingapp.testl.io/api/v1/homework/subject/?student=13876
+2022-10-25 15:09:37.755 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Content-Type: application/json
+2022-10-25 15:09:37.755 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Cache-Control: no-cache
+2022-10-25 15:09:37.755 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY5Mjk4NjEwLCJqdGkiOiIwNDg0NjE0N2EyMDE0MDU0YTAxZGU3Y2ZmNWE5NGY1MyIsInVzZXJfaWQiOjIwNzUyfQ.CjHb31SIcLratHMeOoMx6zW4WuKajEhXNicRpxyTuLY
+2022-10-25 15:09:37.755 24339-24386 okhttp.OkHttpClient     pid-24339                            I  --> END GET
+2022-10-25 15:09:37.939 21945-24442 Finsky                  pid-21945                            I  [26189] trw.r(4): SCH: jobFinished: 20-23232323. TimeElapsed: 9139ms.
+2022-10-25 15:09:37.960 24339-24339 RecyclerView            pid-24339                            W  No adapter attached; skipping layout
+2022-10-25 15:09:37.963 24339-24339 RecyclerView            pid-24339                            W  No adapter attached; skipping layout
+2022-10-25 15:09:37.963 21945-22124 Finsky                  pid-21945                            I  [26116] tra.accept(65): SCH: Scheduling phonesky job Id: 3-26390, CT: 1666706854297, Constraints: [{ L: 0, D: 86400000, C: 2, I: 1, N: 2 }]
+2022-10-25 15:09:37.965 21945-22124 Finsky                  pid-21945                            I  [26116] tra.accept(65): SCH: Scheduling phonesky job Id: 3-26392, CT: 1666706854297, Constraints: [{ L: 0, D: 86400000, C: 2, I: 1, N: 2 }]
+2022-10-25 15:09:37.979 21945-22133 Finsky                  pid-21945                            I  [26120] tlf.apply(22): SCH: Scheduling 1 system job(s)
+2022-10-25 15:09:37.982 21945-22133 Finsky                  pid-21945                            I  [26120] tlf.apply(28): SCH: Scheduling system job Id: 9334, L: 0, D: 86276318, C: true, I: false, N: 2
+2022-10-25 15:09:37.996 21945-24440 Finsky                  pid-21945                            I  [26187] ttq.a(16): SCH: job service finished with id 9321.
+2022-10-25 15:09:37.999   754-2113  GeminiPowerms_itel      pid-754                              D  releaseWakeLock() called with: packageName = [android], tag = [*job*/com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain], startAcquireTimeStamp = [285447688], relativeMillis = [9257], relativeMinutes = [0], wakefulness = [1]
+2022-10-25 15:09:38.004   638-1356  GNSSMGT                 pid-638                              D  watchdog: PowerState[UNKOWN STATE], gps_flag[4], readcount[0], idle time = 0, HeartCount = 0
+2022-10-25 15:09:38.057 24339-24339 Choreographer           pid-24339                            I  Skipped 32 frames!  The application may be doing too much work on its main thread.
+2022-10-25 15:09:38.068 24339-24378 OpenGLRenderer          pid-24339                            I  Davey! duration=843ms; Flags=0, IntendedVsync=175535752394933, Vsync=175535835724933, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=175535852088021, AnimationStart=175535852092213, PerformTraversalsStart=175535852242059, DrawStart=175536516687674, SyncQueued=175536581663520, SyncStart=175536583451136, IssueDrawCommandsStart=175536585367020, SwapBuffers=175536597075713, FrameCompleted=175536598095751, DequeueBufferDuration=1019116, QueueBufferDuration=576346, GpuCompleted=175512677481576, 
+2022-10-25 15:09:38.442  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:38.444  1178-1274  NetworkCon...troller(8) pid-1178                             D  refreshImsIcons phoneId = 0
+2022-10-25 15:09:38.447  1178-1178  StatusBarSignalPolicy   pid-1178                             D  state.show = falsestate.mMobileVolteId = 0 subId = 8
+2022-10-25 15:09:38.454  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:38.455  1128-1128  UpLinkDataController    pid-1128                             D  onSignalStrengthsChanged
+2022-10-25 15:09:38.704 24339-24395 okhttp.OkHttpClient     pid-24339                            I  <-- 200 OK https://vettingapp.testl.io/api/v1/homework/?student=13876&ordering=due_date&for_due=true (1146ms)
+2022-10-25 15:09:38.704 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Date: Tue, 25 Oct 2022 14:09:40 GMT
+2022-10-25 15:09:38.704 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Server: Apache/2.4.41 (Ubuntu)
+2022-10-25 15:09:38.704 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Content-Length: 333
+2022-10-25 15:09:38.704 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Vary: Accept
+2022-10-25 15:09:38.704 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Allow: GET, POST, HEAD, OPTIONS
+2022-10-25 15:09:38.704 24339-24395 okhttp.OkHttpClient     pid-24339                            I  X-Frame-Options: DENY
+2022-10-25 15:09:38.705 24339-24395 okhttp.OkHttpClient     pid-24339                            I  X-Content-Type-Options: nosniff
+2022-10-25 15:09:38.705 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Referrer-Policy: same-origin
+2022-10-25 15:09:38.705 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Keep-Alive: timeout=5, max=100
+2022-10-25 15:09:38.705 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Connection: Keep-Alive
+2022-10-25 15:09:38.705 24339-24395 okhttp.OkHttpClient     pid-24339                            I  Content-Type: application/json
+2022-10-25 15:09:38.706 24339-24395 okhttp.OkHttpClient     pid-24339                            I  {"count":1,"next":null,"previous":null,"results":[{"id":3055,"title":"Clause","description":"what is a clause? \nhow are clauses used in a real life vocabulary scenario","subject":{"id":17866,"title":"Photoshop","image":"https://vettingapp.testl.io/media/subject/b7f5a551-184d-41aa-a8bb-b4edc7205141.jpeg"},"due_date":"2022-10-28"}]}
+2022-10-25 15:09:38.707 24339-24395 okhttp.OkHttpClient     pid-24339                            I  <-- END HTTP (333-byte body)
+2022-10-25 15:09:38.845  1178-1178  StackScroller           pid-1178                             D  setMaxTopPadding() maxTopPadding:1304 StackScrollAlpha:1.0
+2022-10-25 15:09:38.845  1178-1178  StackScroller           pid-1178                             D  setMaxTopPadding() maxTopPadding:1304 StackScrollAlpha:1.0
+2022-10-25 15:09:38.846  1178-1178  PanelView               pid-1178                             D  getHeaderTranslation() translation:-694.0
+2022-10-25 15:09:38.846  1178-1178  PanelView               pid-1178                             D  updateExpandedHeight() expandedHeight:0.0
+2022-10-25 15:09:38.846  1178-1178  PanelView               pid-1178                             D  getHeaderTranslation() translation:-694.0
+2022-10-25 15:09:38.849  1178-1178  TAG                     pid-1178                             D  updateClearButton: cccc
+2022-10-25 15:09:38.929 24339-24386 okhttp.OkHttpClient     pid-24339                            I  <-- 200 OK https://vettingapp.testl.io/api/v1/homework/subject/?student=13876 (1173ms)
+2022-10-25 15:09:38.930 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Date: Tue, 25 Oct 2022 14:09:40 GMT
+2022-10-25 15:09:38.930 24339-24396 okhttp.OkHttpClient     pid-24339                            I  <-- 200 OK https://vettingapp.testl.io/api/v1/grade/?for_teacher=true (1196ms)
+2022-10-25 15:09:38.930 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Date: Tue, 25 Oct 2022 14:09:40 GMT
+2022-10-25 15:09:38.930 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Server: Apache/2.4.41 (Ubuntu)
+2022-10-25 15:09:38.931 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Server: Apache/2.4.41 (Ubuntu)
+2022-10-25 15:09:38.931 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Content-Length: 595
+2022-10-25 15:09:38.931 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Content-Length: 52
+2022-10-25 15:09:38.931 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Vary: Accept
+2022-10-25 15:09:38.931 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Vary: Accept
+2022-10-25 15:09:38.931 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Allow: GET, HEAD, OPTIONS
+2022-10-25 15:09:38.931 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Allow: GET, POST, HEAD, OPTIONS
+2022-10-25 15:09:38.931 24339-24386 okhttp.OkHttpClient     pid-24339                            I  X-Frame-Options: DENY
+2022-10-25 15:09:38.931 24339-24396 okhttp.OkHttpClient     pid-24339                            I  X-Frame-Options: DENY
+2022-10-25 15:09:38.932 24339-24386 okhttp.OkHttpClient     pid-24339                            I  X-Content-Type-Options: nosniff
+2022-10-25 15:09:38.932 24339-24396 okhttp.OkHttpClient     pid-24339                            I  X-Content-Type-Options: nosniff
+2022-10-25 15:09:38.932 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Referrer-Policy: same-origin
+2022-10-25 15:09:38.932 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Referrer-Policy: same-origin
+2022-10-25 15:09:38.932 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Keep-Alive: timeout=5, max=100
+2022-10-25 15:09:38.932 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Keep-Alive: timeout=5, max=100
+2022-10-25 15:09:38.932 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Connection: Keep-Alive
+2022-10-25 15:09:38.932 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Connection: Keep-Alive
+2022-10-25 15:09:38.932 24339-24386 okhttp.OkHttpClient     pid-24339                            I  Content-Type: application/json
+2022-10-25 15:09:38.932 24339-24396 okhttp.OkHttpClient     pid-24339                            I  Content-Type: application/json
+2022-10-25 15:09:38.934 24339-24396 okhttp.OkHttpClient     pid-24339                            I  {"count":0,"next":null,"previous":null,"results":[]}
+2022-10-25 15:09:38.934 24339-24386 okhttp.OkHttpClient     pid-24339                            I  {"count":1,"next":null,"previous":null,"results":[{"id":17866,"title":"Photoshop","thumbnail":"https://vettingapp.testl.io/media/subject/thumbnail/b7f5a551-184d-41aa-a8bb-b4edc7205141.jpeg","division":{"id":17638,"title":"B","grade_name":"Grade 1","grade_id":9054},"teacher_subject":[{"id":16600,"homework":[{"id":3055,"title":"Clause","description":"what is a clause? \nhow are clauses used in a real life vocabulary scenario","subject":{"id":17866,"title":"Photoshop","image":"https://vettingapp.testl.io/media/subject/b7f5a551-184d-41aa-a8bb-b4edc7205141.jpeg"},"due_date":"2022-10-28"}]}]}]}
+2022-10-25 15:09:38.934 24339-24396 okhttp.OkHttpClient     pid-24339                            I  <-- END HTTP (52-byte body)
+2022-10-25 15:09:38.934 24339-24386 okhttp.OkHttpClient     pid-24339                            I  <-- END HTTP (595-byte body)
+2022-10-25 15:09:39.432  1178-1178  NotificationListener    pid-1178                             D  onRankingUpdate
+2022-10-25 15:09:39.444  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:39.454  1178-1178  StackScroller           pid-1178                             D  setMaxTopPadding() maxTopPadding:1304 StackScrollAlpha:1.0
+2022-10-25 15:09:39.454  1178-1178  PanelView               pid-1178                             D  getHeaderTranslation() translation:-694.0
+2022-10-25 15:09:39.454  1178-1178  PanelView               pid-1178                             D  updateExpandedHeight() expandedHeight:0.0
+2022-10-25 15:09:39.454  1178-1178  PanelView               pid-1178                             D  getHeaderTranslation() translation:-694.0
+2022-10-25 15:09:39.456  1178-1178  TAG                     pid-1178                             D  updateClearButton: cccc
+2022-10-25 15:09:39.989   754-1323  SSense                  pid-754                              D  onTouchRateChanged: rate:3.25
+2022-10-25 15:09:40.004   638-1356  GNSSMGT                 pid-638                              D  watchdog: PowerState[UNKOWN STATE], gps_flag[4], readcount[0], idle time = 0, HeartCount = 0
+2022-10-25 15:09:40.446  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:41.450  1128-1128  UpLinkDataController    pid-1128                             D  onSignalStrengthsChanged
+2022-10-25 15:09:41.450  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:42.004   638-1356  GNSSMGT                 pid-638                              D  watchdog: PowerState[UNKOWN STATE], gps_flag[4], readcount[0], idle time = 0, HeartCount = 0
+2022-10-25 15:09:42.447  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:42.448  1128-1128  UpLinkDataController    pid-1128                             D  onSignalStrengthsChanged
+2022-10-25 15:09:42.449  1178-1274  NetworkCon...troller(9) pid-1178                             D  refreshImsIcons phoneId = 1
+2022-10-25 15:09:42.450  1178-1178  StatusBarSignalPolicy   pid-1178                             D  state.show = falsestate.mMobileVolteId = 0 subId = 9
+2022-10-25 15:09:42.996   754-1090  SmartItelScene_smart    pid-754                              D  reportEvent: ItelScene{mSceneType=4000, mSceneId=4001, mExtras=Bundle[{lastSceneState=16385, currentMeanTemperature=37, lastState=4001}]}
+2022-10-25 15:09:42.996   754-1090  SmartItelScene_smart    pid-754                              D  notifySceneStatusChanged: notify 1 receivers
+2022-10-25 15:09:42.996   754-1090  SmartPower              pid-754                              D  PowerXtendOperation&intelligent_power, --ItelScene{mSceneType=4000, mSceneId=4001, mExtras=Bundle[{lastSceneState=16385, currentMeanTemperature=37, lastState=4001}]}
+2022-10-25 15:09:42.996   754-1090  SmartPower              pid-754                              D  PowerXtendOperation&intelligent_power, -sceneType-16384
+2022-10-25 15:09:42.996   754-1090  SmartPower              pid-754                              D  PowerXtendOperation&intelligent_power, -sceneId-16385
+2022-10-25 15:09:42.996   754-1089  SmartItelScene_smart    pid-754                              D  handleMessage(MSG_TEMPERATURE_STATE_SWITCH)
+2022-10-25 15:09:43.448  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:43.456  1128-1128  UpLinkDataController    pid-1128                             D  onSignalStrengthsChanged
+2022-10-25 15:09:43.456  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:43.649   637-654   ThermalCvtGovernor      pid-637                              I  board-bck(default) Sum: 172758, cala times: 4
+2022-10-25 15:09:43.649   637-654   ThermalCvtGovernor      pid-637                              I  board-bck(default) average temp: 43189
+2022-10-25 15:09:44.004   638-1356  GNSSMGT                 pid-638                              D  watchdog: PowerState[UNKOWN STATE], gps_flag[4], readcount[0], idle time = 0, HeartCount = 0
+2022-10-25 15:09:44.062   754-2113  GeminiPowerms_itel      pid-754                              D  acquireWakeLock() called with: packageName = [com.android.phone], tag = [*telephony-radio*], wakefulness = [1]
+2022-10-25 15:09:44.065  1128-1527  IwlanNetworkService     pid-1128                             D  requestNetworkRegistrationInfo,domain:2 callback:android.telephony.NetworkServiceCallback@1971309
+2022-10-25 15:09:44.065  1128-1527  TelephonyProvider       pid-1128                             D  Using old permission behavior for telephony provider compat
+2022-10-25 15:09:44.075   754-2113  GeminiPowerms_itel      pid-754                              D  releaseWakeLock() called with: packageName = [com.android.phone], tag = [*telephony-radio*], startAcquireTimeStamp = [285463009], relativeMillis = [13], relativeMinutes = [0], wakefulness = [1]
+2022-10-25 15:09:44.093  1128-1128  TeleUtils               pid-1128                             D   translateOperatorName: old name= glo ng
+2022-10-25 15:09:44.093  1128-1128  TeleUtils               pid-1128                             D   changeOperator: old value= 62150
+2022-10-25 15:09:44.097  1128-1128  TeleUtils               pid-1128                             D   changeOperator: itemList length is 1904
+2022-10-25 15:09:44.099  1128-1128  TeleUtils               pid-1128                             D  itemList found: parts[0]= 62150 parts[1]= Glo NG  newName= Glo NG
+2022-10-25 15:09:44.099  1128-1128  TeleUtils               pid-1128                             D  translateOperatorName : plmn = 62150 newName= Glo NG
+2022-10-25 15:09:44.108  1128-1128  TeleUtils               pid-1128                             D   changeOperator: old value= 62150
+2022-10-25 15:09:44.112  1128-1128  TeleUtils               pid-1128                             D   changeOperator: itemList length is 1904
+2022-10-25 15:09:44.114  1128-1128  TeleUtils               pid-1128                             D  itemList found: parts[0]= 62150 parts[1]= Glo NG  newName= Glo NG
+2022-10-25 15:09:44.118  1128-1128  TeleUtils               pid-1128                             D   translateOperatorName: old name= glo ng
+2022-10-25 15:09:44.118  1128-1128  TeleUtils               pid-1128                             D   changeOperator: old value= 62150
+2022-10-25 15:09:44.123  1128-1128  TeleUtils               pid-1128                             D   changeOperator: itemList length is 1904
+2022-10-25 15:09:44.124  1128-1128  TeleUtils               pid-1128                             D  itemList found: parts[0]= 62150 parts[1]= Glo NG  newName= Glo NG
+2022-10-25 15:09:44.125  1128-1128  TeleUtils               pid-1128                             D  translateOperatorName : plmn = 62150 newName= Glo NG
+2022-10-25 15:09:44.125  1128-1128  TeleUtils               pid-1128                             D   translateOperatorName: old name= glo ng
+2022-10-25 15:09:44.125  1128-1128  TeleUtils               pid-1128                             D   changeOperator: old value= 62150
+2022-10-25 15:09:44.129  1128-1128  TeleUtils               pid-1128                             D   changeOperator: itemList length is 1904
+2022-10-25 15:09:44.131  1128-1128  TeleUtils               pid-1128                             D  itemList found: parts[0]= 62150 parts[1]= Glo NG  newName= Glo NG
+2022-10-25 15:09:44.131  1128-1128  TeleUtils               pid-1128                             D  translateOperatorName : plmn = 62150 newName= Glo NG
+2022-10-25 15:09:44.139  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:44.143  1128-1128  ServiceStateProvider    pid-1128                             D  subId=8
+2022-10-25 15:09:44.145  1178-1178  CarrierTextController   pid-1178                             D  show displayText:Glo NG — MTN NG
+2022-10-25 15:09:44.146  1178-1178  CarrierTextController   pid-1178                             D  show displayText:Glo NG — MTN NG
+2022-10-25 15:09:44.148 24066-24066 CellBroadcastReceiver   pid-24066                            D  onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver/.CellBroadcastReceiver (has extras) }
+2022-10-25 15:09:44.155   754-1064  ConnectivityService     pid-754                              D  notifyType CALLBACK_CAP_CHANGED for [235 CELLULAR]
+2022-10-25 15:09:44.157  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:44.160   754-817   BroadcastQueue          pid-754                              W  Permission Denial: receiving Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) } to shareit.lite/com.ushareit.longevity.receiver.GlobalReceiver requires android.permission.READ_PHONE_STATE due to sender android (uid 1001)
+2022-10-25 15:09:44.161  1128-1128  ImsStateListener        pid-1128                             D  [0] ACTION_SERVICE_STATE_CHANGED
+2022-10-25 15:09:44.160   754-817   BroadcastQueue          pid-754                              W  Permission Denial: receiving Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) } to shareit.lite/com.ushareit.longevity.receiver.GlobalReceiver requires android.permission.READ_PHONE_STATE due to sender android (uid 1001)
+2022-10-25 15:09:44.163   754-1064  ConnectivityService     pid-754                              D  receive EVENT_NETWORK_PROPERTIES_CHANGED 
+2022-10-25 15:09:44.163  1128-1128  PhoneUtils              pid-1128                             D  isCtCard iccid = 8923450911193697180F
+2022-10-25 15:09:44.163   754-1064  ConnectivityService     pid-754                              D  Update of LinkProperties for [235 CELLULAR]; created=true; everConnected=true
+2022-10-25 15:09:44.163  1128-1128  ImsServiceImpl          pid-1128                             I  [1]:onServiceStateChanged
+2022-10-25 15:09:44.163  1128-1128  CallForwardHelper       pid-1128                             D  onServiceStateChanged(), state: 0 DataRegState: 0
+2022-10-25 15:09:44.163   754-1064  ConnectivityService     pid-754                              D  handleUpdateLinkProperties: newLp is {InterfaceName: seth_lte0 LinkAddresses: [ 10.18.179.169/32 ] DnsAddresses: [ /10.159.83.82,/10.159.83.25 ] Domains: null MTU: 1500 TcpBufferSizes: 122334,734003,2202010,32040,192239,576717 Routes: [ 0.0.0.0/0 -> 0.0.0.0 seth_lte0 mtu 1500 ]}
+2022-10-25 15:09:44.163   754-1064  ConnectivityService     pid-754                              D  updateMtu: IPv4 mtu = 1500, IPv6 mtu = 0
+2022-10-25 15:09:44.163   754-1064  ConnectivityService     pid-754                              D  identical MTU - not setting
+2022-10-25 15:09:44.164   754-1064  GeminiPowerms_itel      pid-754                              D  acquireWakeLock() called with: packageName = [android], tag = [NetworkStats], wakefulness = [1]
+2022-10-25 15:09:44.164  1178-1178  StackScroller           pid-1178                             D  setMaxTopPadding() maxTopPadding:1304 StackScrollAlpha:1.0
+2022-10-25 15:09:44.164  1128-1128  FdnHelper               pid-1128                             D  (phoneId0) onServiceStateChanged(), state: 0
+2022-10-25 15:09:44.164  1128-1128  FdnHelper               pid-1128                             D  (subId8) firstQuery =false
+2022-10-25 15:09:44.165  1178-1178  StackScroller           pid-1178                             D  setMaxTopPadding() maxTopPadding:1304 StackScrollAlpha:1.0
+2022-10-25 15:09:44.165  1178-1178  PanelView               pid-1178                             D  getHeaderTranslation() translation:-694.0
+2022-10-25 15:09:44.165  1178-1178  PanelView               pid-1178                             D  updateExpandedHeight() expandedHeight:0.0
+2022-10-25 15:09:44.165  1178-1178  PanelView               pid-1178                             D  getHeaderTranslation() translation:-694.0
+2022-10-25 15:09:44.166  1128-1128  [ImsCM] Im...gerMonitor pid-1128                             D  Receiver action: android.intent.action.SERVICE_STATE
+2022-10-25 15:09:44.167  1178-1178  TAG                     pid-1178                             D  updateClearButton: cccc
+2022-10-25 15:09:44.183  1128-1128  [ImsCM] Im...rStateInfo pid-1128                             D  setRoamingState, isInRoaming = false
+2022-10-25 15:09:44.183  1128-1128  [ImsCM] Im...gerMonitor pid-1128                             D  updateServiceState isInRoaming = false
+2022-10-25 15:09:44.184  1128-1128  TelephonyProvider       pid-1128                             D  Using old permission behavior for telephony provider compat
+2022-10-25 15:09:44.184  1128-1128  TelephonyProvider       pid-1128                             D  subIdString = 8 subId = 8
+2022-10-25 15:09:44.196  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:44.198  1178-1274  NetworkCon...troller(8) pid-1178                             D  refreshImsIcons phoneId = 0
+2022-10-25 15:09:44.198  1178-1178  StatusBarSignalPolicy   pid-1178                             D  state.show = falsestate.mMobileVolteId = 0 subId = 8
+2022-10-25 15:09:44.201  1128-1128  ImsServiceImpl          pid-1128                             I  [1]:handleMessage msg={ when=-38ms what=106 obj=android.os.AsyncResult@9f84f2f target=com.spreadtrum.ims.ImsServiceImpl$ImsHandler }
+2022-10-25 15:09:44.201  1128-1128  ImsServiceImpl          pid-1128                             I  [1]:EVENT_SERVICE_STATE_CHANGED->ServiceStateChange
+2022-10-25 15:09:44.201  1128-1128  ImsServiceImpl          pid-1128                             I  [1]:DataRadioType:15, DataRegState:0
+2022-10-25 15:09:44.202  1128-1128  ImsServiceImpl          pid-1128                             I  [1]:mImsRegistered:false, isVoLteEnabled:false, isVoLTERegistered:false
+2022-10-25 15:09:44.216   754-1064  GeminiPowerms_itel      pid-754                              D  releaseWakeLock() called with: packageName = [android], tag = [NetworkStats], startAcquireTimeStamp = [285463111], relativeMillis = [52], relativeMinutes = [0], wakefulness = [1]
+2022-10-25 15:09:44.217   754-1064  ConnectivityService     pid-754                              D  notifyType CALLBACK_IP_CHANGED for [235 CELLULAR]
+2022-10-25 15:09:45.456  1178-1274  MobileSignalController  pid-1178                             D  roaming = false , isCdma = false
+2022-10-25 15:09:45.457  1128-1128  UpLinkDataController    pid-1128                             D  onSignalStrengthsChanged
+2022-10-25 15:09:45.458  1178-1274  NetworkCon...troller(9) pid-1178                             D  refreshImsIcons phoneId = 1
+2022-10-25 15:09:45.461  1178-1178  StatusBarSignalPolicy   pid-1178                             D  state.show = falsestate.mMobileVolteId = 0 subId = 9
